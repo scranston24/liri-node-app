@@ -38,3 +38,9 @@ client.get('statuses/user_timeline', {user_id:'NickFolesMVP9'}, function(error, 
   }
 })
 }
+
+// spotify.search({ type: 'track', query: 'dancing in the moonlight' }, function(err, data) {
+//     if ( error ) {
+//         console.log(error);
+//         return;
+//     }
